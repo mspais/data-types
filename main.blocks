@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="zVM|@TjvT,lc#%TH}!iy">Player</variable><variable type="KIND_SpriteKind" id="e_s9ka@72tepz+@^^,_h">Projectile</variable><variable type="KIND_SpriteKind" id="Tfl3k*[bGaTV8:Kp{~=P">Food</variable><variable type="KIND_SpriteKind" id="RoBSpH|+$??;-@Y,_LBu">Enemy</variable><variable id="*%U7jf}9Nm.+yL}qS/ew">myNum</variable><variable id="p)iu{=A0b{:N,gpJTmsO">myString</variable><variable id="FT2#H3ROq9Z4m*ibojFj">myBool</variable><variable id="0qlO+ZwQ=0))%W//%Cno">mySprite</variable><variable id="tf03uN^XDa[C,O}q9wE]">myList</variable><variable id="9fcD6!eg5hFRp6`@U/XM">mySprite2</variable></variables><block type="pxt-on-start" id="C`08ta!yQo%B~$;4(S%3" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="(U!H%qhaoD)oe;oAWOtT"><field name="VAR" id="*%U7jf}9Nm.+yL}qS/ew">myNum</field><value name="VALUE"><shadow type="math_number" id="6AV]Ru`hg:Ap;T#?`mZ3"><field name="NUM">27</field></shadow></value><next><block type="variables_set" id="THX{Zb.6yhG(:]4,9wwL"><field name="VAR" id="p)iu{=A0b{:N,gpJTmsO">myString</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="text" id="DJsa7ZoirEWYQgk+qlf7"><field name="TEXT">Hi there!</field></block></value><next><block type="variables_set" id="Lw6u4#e928l3nG;;+JQ;"><field name="VAR" id="FT2#H3ROq9Z4m*ibojFj">myBool</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_boolean" id="+}%V{tK$Ahk679iJ]c_,"><field name="BOOL">TRUE</field></block></value><next><block type="variables_set" id="H4zc`n4|rp/7;UEQwQL2"><field name="VAR" id="tf03uN^XDa[C,O}q9wE]">myList</field><value name="VALUE"><block type="lists_create_with" id="{TH;I#91teWn0y8UCwbl"><mutation items="3" horizontalafter="3"/><value name="ADD0"><shadow type="math_number" id="v%2Rg(9`U}zwC+,,EA~t"><field name="NUM">1</field></shadow></value><value name="ADD1"><shadow type="math_number" id="SC?A5^:$l=tKZ{m^EVUC"><field name="NUM">2</field></shadow></value><value name="ADD2"><shadow type="math_number" id="H-=5qU+Ejtks7qz|1](J"><field name="NUM">3</field></shadow></value></block></value><next><block type="variables_set" id="+FyKa^m;$ELrbJZlD*[."><field name="VAR" id="0qlO+ZwQ=0))%W//%Cno">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id=".U}=L!7Z(usDy%$C(E#z"><value name="img"><shadow type="screen_image_picker" id="nf6pGBck}:}WH5^zj|I9"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . b 5 5 b . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. b b b b b 5 5 5 5 5 5 5 b . . 
+. b d 5 b 5 5 5 5 5 5 5 5 b . . 
+. . b 5 5 b 5 d 1 f 5 d 4 f . . 
+. . b d 5 5 b 1 f f 5 4 4 c . . 
+b b d b 5 5 5 d f b 4 4 4 4 b . 
+b d d c d 5 5 b 5 4 4 4 4 4 4 b 
+c d d d c c b 5 5 5 5 5 5 5 b . 
+c b d d d d d 5 5 5 5 5 5 5 b . 
+. c d d d d d d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"nf6pGBck}:}WH5^zj|I9"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="I2/$Yn$fw-Wmfb7Il$57"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></next></block></next></block></statement></block><block type="keyonevent" id="))|Je;r~!80agt1+?JoQ" x="700" y="60"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="variables_set" id="G5Sw:k(a3-FZ_SBS)U$L"><field name="VAR" id="*%U7jf}9Nm.+yL}qS/ew">myNum</field><value name="VALUE"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="logic_boolean" id="wW[BZYLgelM%C~8dWc*A"><field name="BOOL">FALSE</field></block></value><next><block type="variables_change" id="$:g++Bj%RH$}q~,^*D=$"><field name="VAR" id="p)iu{=A0b{:N,gpJTmsO">myString</field><value name="VALUE"><shadow type="math_number" id="mE;0O:dHZ8Ii,QG!80`M"><field name="NUM">3</field></shadow></value><next><block type="variables_set" id="9;m^cIZk}*h)V,AlAUfg"><field name="VAR" id="FT2#H3ROq9Z4m*ibojFj">myBool</field><value name="VALUE"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="text" id="=DdIEd[tmUJsA|AGz]!b"><field name="TEXT">Goodbye!</field></block></value><next><block type="variables_set" id="hnnznaH;`LXY*06rhzfW"><field name="VAR" id="tf03uN^XDa[C,O}q9wE]">myList</field><value name="VALUE"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="spritescreate" id="y@UN!65XvpN+2W*Q,~`S"><value name="img"><shadow type="screen_image_picker" id="/7Lmz(/#p6sr4w*=@Y*Z"><field name="img">img`
+. . . . . . b b b b a a . . . . 
+. . . . b b d d d 3 3 3 a a . . 
+. . . b d d d 3 3 3 3 3 3 a a . 
+. . b d d 3 3 3 3 3 3 3 3 3 a . 
+. b 3 d 3 3 3 3 3 b 3 3 3 3 a b 
+. b 3 3 3 3 3 a a 3 3 3 3 3 a b 
+b 3 3 3 3 3 a a 3 3 3 3 d a 4 b 
+b 3 3 3 3 b a 3 3 3 3 3 d a 4 b 
+b 3 3 3 3 3 3 3 3 3 3 d a 4 4 e 
+a 3 3 3 3 3 3 3 3 3 d a 4 4 4 e 
+a 3 3 3 3 3 3 3 d d a 4 4 4 e . 
+a a 3 3 3 d d d a a 4 4 4 e e . 
+. e a a a a a a 4 4 4 4 e e . . 
+. . e e b b 4 4 4 4 b e e . . . 
+. . . e e e e e e e e . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"/7Lmz(/#p6sr4w*=@Y*Z"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="iOWaun?=}vwl5jTV]X1v"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="(WUvKl3_UEii:u3_w=5a"><field name="VAR" id="0qlO+ZwQ=0))%W//%Cno">mySprite</field><value name="VALUE"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="lists_create_with" id="r7C4yfhJNScWzab9OGHs"><mutation items="2" horizontalafter="3"/><value name="ADD0"><block type="text" id="(ZVSdIh$fT.~0G4}g5ur"><field name="TEXT">apple</field></block></value><value name="ADD1"><block type="text" id="XSPc}08lqpl$)M{wdLp{"><field name="TEXT">orange</field></block></value></block></value></block></next></block></next></block></next></block></next></block></statement></block></xml>
